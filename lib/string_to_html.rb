@@ -8,7 +8,7 @@
       file_name = 'index.html'
     end
 
-    if bypass_html
+    unless bypass_html
       text = Sanitize.fragment(text)
     end
 
