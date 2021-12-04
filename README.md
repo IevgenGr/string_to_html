@@ -3,7 +3,7 @@
 ## Gem for add html file with status tamagochi app 
 
 ### Install:
-```gem 'html_maker'```
+```gem 'string_to_html'```
 
 Run bundle command in terminal:
 
