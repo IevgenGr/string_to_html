@@ -9,7 +9,7 @@ after that you can run tamagochi.rb
 
 ```ruby tamagochi.rb```
 
-and Run bundle command in terminal:
+and run bundle command in terminal:
 
 ```bundle install```
 
