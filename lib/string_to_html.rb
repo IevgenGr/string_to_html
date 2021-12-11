@@ -6,11 +6,9 @@ class StringToHtml
     arr_message = %w[Сытость: Настроение: Здоровье: Масса: Рост: Умение: Миссия:]
 
     file_name = 'index.html' if file_name.nil?
-
     text = Sanitize.fragment(text) unless bypass_html
-    
+
     arr_level = text.split(',')
-    
     file_html = File.new(file_name, 'w+')
     file_html.puts '<!DOCTYPE html>'
     file_html.puts '<html lang="ru">'
